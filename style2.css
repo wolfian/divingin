@@ -47,7 +47,6 @@ nav li{
 }
 li:hover{
 	background: rgba(255, 255, 255, .8);
-	margin: 0 -10% 0 -10%;
 }
 
 a{
