@@ -58,20 +58,26 @@ nav a.selected, nav a:hover {
     color: grey;
 }
 
-div img{
-	 float: left;
+#profile{
+	float: left;
     display: block;
-    max-width: 300px;
-    max-height: 450px;
+    width: 300px;
+    height: 375px;
     margin: 0.5% auto 1.5% auto;
     border-radius: 20px;
-    margin-left: 20%;
+    margin-left: 18%;
 }
 
-div pre{
+#bio{
 	color: #fff;
 	font-family: arial;
 	font-size: 1.5em;
+	margin-right: 10%;
+	margin-left:5%;
+
+}
+
+div{
 	background: rgba(0, 0, 0, .7);
 	margin-left: -10%;
 	margin-right: -10%;
