@@ -1,0 +1,77 @@
+html{
+	background-image: url("img/codeunstable.gif");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+header{
+	font-family: sans-serif;
+	text-align: center;
+	color: #fff;
+	background: rgba(0, 0, 0, .8);
+	margin: -3% -5% 0 -5%;
+}
+header a:hover{
+	color: grey;
+}
+header h1{
+	font-size: 2.75em;
+	line-height: 1em;
+}
+header h2{
+	line-height: 3em;
+	margin: -4% 0 0 0;
+	font-size: 1.65em;
+}
+nav{
+	float: left;
+}
+nav ul li{
+	font-family: sans-serif;
+	font-weight: 500;
+	list-style: none;
+	text-decoration: none;
+	text-align: left;
+	font-size: 25px;
+	color: #fff;
+	background: rgba(0, 0, 0, .8);
+	padding: 0.05px 0 0.05px 0;
+	margin-right: -10%;
+}
+
+a{
+	text-decoration: none;
+}
+
+a, nav a, nav a:visited {
+    color: #ffffff;
+}
+
+nav a.selected, nav a:hover {
+    color: grey;
+}
+
+div iframe{
+	float: right;
+	margin: 0 5% 0 5%;
+}
+
+footer{
+	text-align: center;
+	margin-bottom: 2%;
+	clear: both;
+}
+footer img{
+	max-height: 50px;
+	max-width: 50px;
+	margin: 5px 2% 0 2%;
+}
+footer p{
+	background: rgba(0, 0, 0, .7);
+	margin-left: 40%;
+	margin-right: 40%;
+	color: #fff;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+}
