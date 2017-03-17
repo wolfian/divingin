@@ -39,11 +39,11 @@ nav ul{
 }
 nav li{
 	display: inline-block;
-	margin-left: 1%;
-	margin-right: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
 	font-size: 25px;
 	color: #fff;
-	padding: 0 30% -2% 30%;
+	padding: 0 5% -2% 5%;
 }
 li:hover{
 	background: rgba(255, 255, 255, .8);
