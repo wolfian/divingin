@@ -66,6 +66,7 @@ nav a.selected, nav a:hover {
     margin: 0.5% auto 1.5% auto;
     border-radius: 20px;
     margin-left: 18%;
+	opacity: 0.95;
 }
 
 #bio{
