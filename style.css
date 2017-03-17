@@ -37,7 +37,7 @@ nav ul li{
 	padding: 0.05px 0 0.05px 0;
 	margin-right: -10%;
 }
-nav ul li.hover{
+nav ul li:hover{
 	background: rgba(255, 255, 255, .8);
 }
 
