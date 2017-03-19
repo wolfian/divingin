@@ -3,6 +3,21 @@
 	<head>
 		<title>Projects</title>
 		<link rel="stylesheet" href="style2.css"/>
+		<link rel="stylesheet" href="nav.css"/>
+		<script>
+		function openNav() {
+   	document.getElementById("side").style.width = "500px";
+		}
+		function closeNav() {
+    	document.getElementById("side").style.width = "0";
+		}
+		function openNav2() {
+   	document.getElementById("side2").style.width = "500px";
+		}
+		function closeNav2() {
+    	document.getElementById("side2").style.width = "0";
+		}
+		</script>
 	</head>
 	<body>
 		<header><a href="home.html" ><br><br>
@@ -11,13 +26,34 @@
 		</header>
 		<nav>
 			<ul>
-				<li><pre><a href="home.html">Home</a></pre></li>
-				<li><pre><a href="blog.html">Blog</a></pre></li>
-				<li><pre><a href="projects.html">Projects</a></pre></li>
-				<li><pre><a href="gaminglife.html">Gaming life</a></pre></li>
-				<li><pre><a href="aboutme.html">About me</a></pre></li><br><br>
+				<a href="home.html"><li><pre>    Home    </pre></li></a>
+				<a href="blog.html"><li><pre>    Blog    </pre></li></a>
+				<a href="projects.html"><li><pre>  Project  </pre></li></a>
+				<a href="gaminglife.html"><li><pre> Gaming life </pre></li></a>
+				<a href="aboutme.html"><li><pre>  About me  </pre></li></a><br><br>
 			</ul>
 		</nav>
+		
+		<div class="sidebar_menu" id="side">
+			<a href="javascript:void(0)" class="close_button" id="close" onclick="closeNav()"><i>&times;</i></a>
+			<center style="font-size: 20px; margin: 15% 5%">
+				<a href="https://www.google.com" target="_blank">google</a><br><br>
+				<a href="https://www.youtube.com" target="_blank">youtube</a>
+			</center>
+		</div>
+
+		<div class="sidebar_menu2" id="side2">
+			<a href="javascript:void(0)" class="close_button2" id="close2" onclick="closeNav2()"><i>&times;</i></a>
+			<center style="font-size: 20px; margin: 15% 5%">
+				<a href="https://www.google.com" target="_blank">google</a><br><br>
+				<a href="https://www.youtube.com" target="_blank">youtube</a>
+			</center>
+		</div>
+		
+		<img src="dogs.jpg" id="webdev" onclick="openNav()" title="web development projects" alt="web development projects" style="float: left; height: 300px; width: 40%; margin: 5% auto 7%; margin-left: 5%">
+
+		<img src="saokirito4.jpg" id="plusplus" onclick="openNav2()" title="c++ projects" alt="c++ projects" style="float: right; height: 300px; width: 40%; margin: 5% auto 7%; margin-right: 5%">
+		
 		<hr style="color: #fff; clear: both;"><br>
 		<footer>
 			<a href="https://www.instagram.com/paarthmanhastr/" target="_blank"><img src="instagram.png" alt="Instagram" title="Instagram"></a>
