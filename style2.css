@@ -64,9 +64,9 @@ nav a.selected, nav a:hover {
 #profile{
 	float: left;
     display: block;
-    width: 280px;
-    height: 375px;
-    margin: 0.5% auto 1.5% auto;
+    width: 290px;
+    height: 320px;
+    margin: 0.5% auto 1.5%;
     border-radius: 20px;
     margin-left: 18%;
 	opacity: 0.8;
