@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>internal 1</title>
+		<link rel="stylesheet" href="calstyle.css">
+
+		<script>
+			function add()
+				{
+					var a = document.getElementById("a");
+					var a = a.value;
+					var b = document.getElementById("b");
+					var b = b.value;
+					var c = parseInt(a) + parseInt(b);
+					document.getElementById("result").value = c;
+				}
+			function sub()
+				{
+					var a = document.getElementById("a");
+					var a = a.value;
+					var b = document.getElementById("b");
+					var b = b.value;
+					var c = parseInt(a) - parseInt(b);
+					document.getElementById("result").value = c;
+				}
+			function mul()
+				{
+					var a = document.getElementById("a");
+					var a = a.value;
+					var b = document.getElementById("b");
+					var b = b.value;
+					var c = parseInt(a) * parseInt(b);
+					document.getElementById("result").value = c;
+				}
+			function div()
+				{
+					var a = document.getElementById("a");
+					var a = a.value;
+					var b = document.getElementById("b");
+					var b = b.value;
+					var c = parseInt(a) / parseInt(b);
+					document.getElementById("result").value = c;
+				}
+		</script>
+	</head>
+	<body>
+		<header>
+			<h1>Basic Calculator</h1>
+		</header>
+		<nav>
+			<br> <br>
+		<cal>
+			<form>
+				<frameset>
+				<in>
+					<pre>Enter the first number:  <input type="text" id="a"></pre> <br> <br>
+					<pre>Enter the second number: <input type="text" id="b"></pre>
+				</in> <br> <br>
+				<input type="button" value="+" onclick="add()">
+				<input type="button" value="-" onclick="sub()">
+				<input type="button" value="*" onclick="mul()">
+				<input type="button" value="/" onclick="div()">
+				<input type="button" value="clear" onclick="location.reload()"> <br> <br>
+				<out>
+					<pre>Result: <input type="text" id="result"></pre>
+				<out>
+				</frameset>
+			</form>
+		</cal>
+	</body>
+</html>
